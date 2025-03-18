@@ -11,6 +11,7 @@ import VSCode_Logo from "./vs-code-logo.svg";
 import Blog_App from "./blog-app.png";
 import Weather_App from "./weather-app.png";
 import CRUD_App from "./crud-app.png";
+import Jewel from "./Jewel.png";
 import Js_Projects from "./js-projects.png";
 import Portfolio from "./portfolio.png";
 import Jquery_Logo from "./jquery.svg";
@@ -33,6 +34,7 @@ export {
   Github_Logo,
   Jest_Logo,
   Firebase_Logo,
+  Jewel,
   Jquery_Logo,
   Linux_Logo,
   VSCode_Logo,

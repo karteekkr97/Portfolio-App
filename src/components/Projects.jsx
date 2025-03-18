@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import { Blog_App, Weather_App, CRUD_App, Portfolio } from "../assets/images/index.js"
+import { Blog_App, Weather_App, Jewel, Portfolio } from "../assets/images/index.js"
 
 function Projects() {
   const [visible,setVisible] = useState(0);
@@ -21,7 +21,7 @@ function Projects() {
       ]
     },
     {
-      id: 3,
+      id: 2,
       image: Portfolio,
       imageAlt: "Portfolio",
       name: "Portfolio",
@@ -35,28 +35,28 @@ function Projects() {
       ]
     },
     {
-      id: 4,
+      id: 3,
       image: Weather_App,
+      imageAlt: "Weather App",
+      name: "weather",
+      description: "A modern weather app that provides real-time weather updates for any location.",
+      links: {
+        gitHub: "https://github.com/karteekkr97/Weather-App",
+        hosted: "https://weather-react-ap.netlify.app/"
+      },
+      tags: [
+        "React", "Tailwind", "Javascript"
+      ]
+    },
+    {
+      id: 4,
+      image: Jewel,
       imageAlt: "JewelTask",
       name: "JewelTask",
       description:"JewelTask – A perfect blend of elegance and efficiency, showcasing stunning jewelry while keeping your tasks organized.",
       links: {
         gitHub: "https://github.com/karteekkr97/karteekkr97.github.io-checkbox-by",
         hosted: "https://karteekkr97.github.io/karteekkr97.github.io-checkbox-by/index.html"
-      },
-      tags: [
-        "Html", "Css", "Javascript"
-      ]
-    },
-    {
-      id: 5,
-      image: CRUD_App,
-      imageAlt: "Calculator",
-      name: "Calculator",
-      description: "A sleek and efficient calculator for quick and accurate computations",
-      links: {
-        gitHub: "https://github.com/karteekkr97/Calci.github.io",
-        hosted: "https://karteekkr97.github.io/Calci.github.io/"
       },
       tags: [
         "Html", "Css", "Javascript"
