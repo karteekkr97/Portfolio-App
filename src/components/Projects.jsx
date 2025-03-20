@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import { Blog_App, Weather_App, Jewel, Portfolio } from "../assets/images/index.js"
+import { Blog_App, Weather_App, Portfolio, Youtube_Logo } from "../assets/images/index.js"
 
 function Projects() {
   const [visible,setVisible] = useState(0);
@@ -36,6 +36,20 @@ function Projects() {
     },
     {
       id: 3,
+      image: Youtube_Logo,
+      imageAlt: "Youtube",
+      name: "Youtube Clone",
+      description:"A full-featured YouTube clone with video uploading, streaming, user authentication, and interactive engagement features.",
+      links: {
+        gitHub: "https://github.com/karteekkr97/Youtube-Clone",
+        hosted: "https://cloned-youtube-app.netlify.app/"
+      },
+      tags: [
+        "React", "Tailwind", "Javascript"
+      ]
+    },
+    {
+      id: 4,
       image: Weather_App,
       imageAlt: "Weather App",
       name: "weather",
@@ -46,20 +60,6 @@ function Projects() {
       },
       tags: [
         "React", "Tailwind", "Javascript"
-      ]
-    },
-    {
-      id: 4,
-      image: Jewel,
-      imageAlt: "JewelTask",
-      name: "JewelTask",
-      description:"JewelTask – A perfect blend of elegance and efficiency, showcasing stunning jewelry while keeping your tasks organized.",
-      links: {
-        gitHub: "https://github.com/karteekkr97/karteekkr97.github.io-checkbox-by",
-        hosted: "https://karteekkr97.github.io/karteekkr97.github.io-checkbox-by/index.html"
-      },
-      tags: [
-        "Html", "Css", "Javascript"
       ]
     },
   ]

@@ -18,7 +18,7 @@ import Jquery_Logo from "./jquery.svg";
 import Tailwind_Logo from "./tailwind-logo.svg";
 import Redux_Logo from "./redux.svg";
 import Jest_Logo from "./Jest.svg";
-
+import Youtube_Logo from "./Youtube-clone.png";
 // Certificates
 import Design_Certificate from "./design-certificate.png";
 import JS_Certificate from "./js-dsa-certificate.png";
@@ -32,6 +32,7 @@ export {
   React_Logo,
   Git_Logo,
   Github_Logo,
+  Youtube_Logo,
   Jest_Logo,
   Firebase_Logo,
   Jewel,
